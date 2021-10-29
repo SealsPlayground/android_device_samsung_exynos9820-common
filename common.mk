@@ -74,6 +74,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.3.vendor \
     android.hardware.radio@1.4.vendor
 
+# Note10 Series Audio
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0.vendor
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl:64 \
